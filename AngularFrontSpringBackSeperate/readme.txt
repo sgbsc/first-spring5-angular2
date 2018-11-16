@@ -1,0 +1,2 @@
+The angular project can be opened in anything, e.g. Atom. 
+To start it, you need to use npm start, otherwise the proxy.conf.json file will not be loaded. This is needed to forward the requests to the Spring backend.
