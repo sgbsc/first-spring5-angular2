@@ -17,7 +17,7 @@ public class Spring5Angular2SinglePageApplication implements CommandLineRunner {
 	
 	//bootstap database at start of application
 	public void run(String... strings) throws Exception {
-		userRepository.save(new User("Mario","Romano"));
-		userRepository.save(new User("Ralf","Verdi"));
+		userRepository.save(new User("Ada","Lovelace"));
+		userRepository.save(new User("Grace","Hopper"));
 	}
 }
